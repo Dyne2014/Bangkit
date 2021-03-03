@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
+
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var edtWidth : EditText
@@ -26,7 +27,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         tvResult = findViewById(R.id.tv_result)
 
         btnCalculate.setOnClickListener(this)
-
     }
 
     override fun onClick(v: View?) {
